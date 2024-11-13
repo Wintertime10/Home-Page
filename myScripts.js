@@ -31,8 +31,21 @@ function showNote(){
        document.getElementById("note").style.opacity = 1;
        show = true;
    }
-   else if (show == true){
+   else {
        document.getElementById("note").style.opacity = 0;
        show = false;
+   }
+}
+
+
+var showCalc = false;
+function showCalculator(){
+   if (showCalc == false){
+       document.getElementById("calc").style.opacity = 1;
+       showCalc = true;
+   }
+   else if (showCalc == true){
+       document.getElementById("calc").style.opacity = 0;
+       showCalc = false;
    }
 }

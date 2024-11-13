@@ -20,11 +20,18 @@
         
         
     </head>
+    <div class="navbar">
+        <h1 class="poopy">My Homepage</h1>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="#">More</a>
+        <a href="#">Login</a> 
+    </div>
     <body onload="startTime()">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1>Hello</h1>
+        <h1>Hello Aiden!</h1>
         
         
         <!-- GOOGLE SEARCH -->
@@ -40,18 +47,30 @@
             </a>
             <i class="fas fa-sticky-note" onclick="showNote()"></i>
             <i class="fas fa-calculator" onclick="showCalculator()"></i>
+            <a href="https://flappybird.io/" target="_blank">
+                <i class="fas fa-gamepad"></i>
+            </a>
         </section>
 
-        <div id="clock"></div>
+            
+           
+        <div class="wrapper">
+            <div id="clock"></div>
+        </div>
+
+        <textarea placeholder="Write a note..." id="note" onkeyup="autoSave()"></textarea>
+
+
+
+        <!-- CALCULATOR -->
+        <iframe width="219" height="302" id="calc"
+        src="http://calculator-1.com/outdoor/?f=0274C8&r=666666" scrolling="no" frameborder="0"></iframe>
+
+
+
     
         <script src="myScripts.js" async defer></script>
     </body>
 </html>
 
 
-
-<textarea placeholder="Write a note..." id="note" onkeyup="autoSave()"></textarea>
-
-<!-- Make a file called myScripts.js in parent directory -->
-<script src="myScripts.js"></script>
-</body>

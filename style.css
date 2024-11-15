@@ -88,10 +88,8 @@ CLOCK
 
 #clock{
    font-size: 90px;
-   position: absolute;
-   margin-top: 140px;
-   margin-left: 30px;
    justify-content: center;
+   padding-top:150px;
 }
 
 /*
@@ -114,6 +112,7 @@ CALCULATOR
    bottom:50px;
    left:50px;
    font-family:sans-serif;
+   opacity: 0;
   }
 /*
 =================================================
